@@ -14,6 +14,7 @@ CRUD Usage
 Having a form with a class call ajax_create, and specify a "data-replace-target" as a append target.
 
 E.g.
+    ``` ruby
     `= form_for xxx, :remote => true, :html => {:class => 'ajax_create', 'data-replace-target' => 'ul.itemList'}`
 
 ###Destroy
