@@ -27,7 +27,6 @@ Having a link with a class call ajax_destroy, and specify a "data-replace-target
 
 E.g.
 ```ruby
-li.fields
   <%= link_to "delete", comment_path(comment, :format => :json), :method => :delete, :remote => true, :confirm => 'Are you sure?', :class => 'ajax_destroy' %>
 ```
 
@@ -36,7 +35,6 @@ Having a link with a class call ajax_edit, and specify a "data-replace-target" a
 
 E.g.
 ```ruby
-li.fields
   <%= link_to comment.text, edit_comment_path(comment), :remote => true, :class => 'ajax_edit' %>
 ```
 
@@ -53,7 +51,6 @@ Having a link with a class call ajax_show, and specify a "data-replace-target" a
 
 E.g.
 ```ruby
-li.fields
   <%= link_to "Back", comment_path(comment), :remote => true, :class => 'ajax_show' %>
 ```
 
@@ -62,7 +59,6 @@ Having a link with a class call ajax_index, and specify a "data-replace-target" 
 
 E.g.
 ```ruby
-li.fields
   <%= link_to "Refresh comments", post_comments_path(@post), :remote => true, :class => 'ajax_index', 'data-replace-target'=> 'ul#comments' %>
 ```
 
