@@ -5,11 +5,11 @@ A simple Rails AJAX JS CRUD within 60 lines.
 
 Dependency
 ----------
-Rails.js - The Unobtrusive JS~!
+jQuery_ujs - The Unobtrusive JS~!
 
 Demo
 ----
-Demo app under Demo directory
+Demo app address: <a href="http://simple-rails-ajax-crud-demo.herokuapp.com/">http://simple-rails-ajax-crud-demo.herokuapp.com/</a>
 
 CRUD Usage
 ----------
