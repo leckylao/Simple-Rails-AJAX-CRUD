@@ -1,0 +1,4 @@
+<li class='fields'>
+  <%= link_to comment.text, edit_comment_path(comment), :remote => true, :class => 'ajax_edit' %>
+  <%= link_to "delete", comment_path(comment, :format => :json), :method => :delete, :remote => true, :confirm => 'Are you sure?', :class => 'ajax_destroy' %>
+</li>

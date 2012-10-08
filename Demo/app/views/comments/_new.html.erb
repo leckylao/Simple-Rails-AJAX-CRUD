@@ -1,0 +1,7 @@
+<%= form_for comment, :remote => true, :html => {:class => 'ajax_create', 'data-replace-target' => 'ul#comments', 'data-replace-location' => 'body'} do |f| %>
+  <%= f.label :text, 'text' %>
+  <%= f.text_field :text %>
+  <%= f.hidden_field :commentable_id, :value => post.id %>
+  <%= f.hidden_field :commentable_type, :value => post.class.to_s %>
+  <%= f.submit "submit" %>
+<% end %>
