@@ -1,0 +1,9 @@
+<li class='fields'>
+  <%= form_for comment, :remote => true, :html => {:class => 'ajax_update'} do |f| %>
+    <%= f.label :text, 'text' %>
+    <%= f.text_field :text %>
+    <br/>
+    <%= f.submit "submit" %>
+    <%= link_to "Back", comment_path(comment), :remote => true, :class => 'ajax_show' %>
+  <% end %>
+</li>
