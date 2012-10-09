@@ -5,6 +5,7 @@ A simple Rails AJAX JS CRUD within 60 lines.
 
 Dependency
 ----------
+jQuery
 jQuery_ujs - The Unobtrusive JS~!
 
 Demo
