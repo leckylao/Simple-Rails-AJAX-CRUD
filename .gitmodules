@@ -1,0 +1,3 @@
+[submodule "Demo"]
+	path = Demo
+	url = git://github.com/lecky/Simple-Rails-AJAX-CRUD-Demo.git
