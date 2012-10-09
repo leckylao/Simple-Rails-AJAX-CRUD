@@ -66,6 +66,11 @@ E.g.
 ###Error Handle
 a div#flash_alert will auto prepend to the body with server error messages
 
+Todo
+----
+
+* Try to integrate with Turbolinks/PJAX in order to minimise server controller code changes. 
+
 License
 -------
 
