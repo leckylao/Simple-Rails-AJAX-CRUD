@@ -65,3 +65,10 @@ E.g.
 
 ###Error Handle
 a div#flash_alert will auto prepend to the body with server error messages
+
+License
+-------
+
+Simple Rails AJAX CRUD is released under the MIT license:
+
+* http://www.opensource.org/licenses/MIT
