@@ -63,42 +63,54 @@
 
 
           <h4>Destroy</h4>
-          Having a link with a class call ajax_destroy, and specify a "data-replace-target" as a remove target, default to "li.fields"
+          <p>
+            Having a link with a class call ajax_destroy, and specify a "data-replace-target" as a remove target, default to "li.fields"
+          </p>
 
 <pre><code>
   <%= link_to "delete", comment_path(comment, :format => :json), :method => :delete, :remote => true, :confirm => 'Are you sure?', :class => 'ajax_destroy' %>
 </code></pre>
 
           <h4>Edit</h4>
-          Having a link with a class call ajax_edit, and specify a "data-replace-target" as a replace target, default to "li.fields"
+          <p>
+            Having a link with a class call ajax_edit, and specify a "data-replace-target" as a replace target, default to "li.fields"
+          </p>
 
 <pre><code>
   <%= link_to comment.text, edit_comment_path(comment), :remote => true, :class => 'ajax_edit' %>
 </code></pre>
 
           <h4>Update</h4>
-          Having a form with a class call ajax_update, and specify a "data-replace-target" as a replace target, default to "li.fields"
+          <p>
+            Having a form with a class call ajax_update, and specify a "data-replace-target" as a replace target, default to "li.fields"
+          </p>
 
 <pre><code>
   <%= form_for comment, :remote => true, :html => {:class => 'ajax_update'} do |f| %>
 </code></pre>
 
           <h4>Show</h4>
-          Having a link with a class call ajax_show, and specify a "data-replace-target" as a replace target, default to "li.fields"
+          <p>
+            Having a link with a class call ajax_show, and specify a "data-replace-target" as a replace target, default to "li.fields"
+          </p>
 
 <pre><code>
   <%= link_to "Back", comment_path(comment), :remote => true, :class => 'ajax_show' %>
 </code></pre>
 
           <h4>Index(ajax refresh list)</h4>
-          Having a link with a class call ajax_index, and specify a "data-replace-target" as a replace target
+          <p>
+            Having a link with a class call ajax_index, and specify a "data-replace-target" as a replace target
+          </p>
 
 <pre><code>
   <%= link_to "Refresh comments", post_comments_path(@post), :remote => true, :class => 'ajax_index', 'data-replace-target'=> 'ul#comments' %>
 </code></pre>
 
           <h4>Error Handle</h4>
-          a div#flash_alert will auto prepend to the body with server error messages
+          <p>
+            a div#flash_alert will auto prepend to the body with server error messages
+          </p>
 
           <h3>Authors and Contributors</h3>
 
