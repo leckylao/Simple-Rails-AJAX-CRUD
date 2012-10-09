@@ -1,5 +1,0 @@
-<h1><%= @post.title %></h1>
-<p><%= @post.body %></p>
-<%= link_to "Refresh comments", post_comments_path(@post), :remote => true, :class => 'ajax_index', 'data-replace-target'=> 'ul#comments' %>
-<%= render "comments/new", :comment => @comment, :post => @post %>
-<%= render "comments/index", :comments => @comments %>
