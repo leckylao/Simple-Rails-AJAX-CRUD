@@ -1,7 +1,7 @@
 Simple-Rails-AJAX-CRUD
 ======================
 
-A simple Rails AJAX JS CRUD within 60 lines.
+A simple Rails AJAX JS CRUD within 60 lines. Only the file called ajax_callback.js.coffee
 
 Dependency
 ----------
